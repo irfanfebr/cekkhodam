@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Transformations</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 20px;
+            transition: transform 0.5s;
+        }
+
+        .translate {
+            transform: translate(50px, 50px);
+        }
+
+        .rotate {
+            transform: rotate(45deg);
+        }
+
+        .scale {
+            transform: scale(1.5, 1.5);
+        }
+
+        .skew {
+            transform: skew(20deg, 20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box translate">Translate</div>
+    <div class="box rotate">Rotate</div>
+    <div class="box scale">Scale</div>
+    <div class="box skew">Skew</div>
+</body>
+</html>
